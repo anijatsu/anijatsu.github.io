@@ -40,7 +40,7 @@ module.exports = function(eleventyConfig) {
             input: "./",
             output: "_site",
             layouts: "layouts",
-            includes: "includes",
+            //includes: "includes",
             data: "_data"
         },
         passthroughFileCopy: true
