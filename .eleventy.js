@@ -38,8 +38,10 @@ module.exports = function(eleventyConfig) {
         useGitIgnore: false,
         dir: {
             input: "./",
-            output: "_site",
+            output: "docs",
+            //output: "_site",
             layouts: "layouts",
+            includes: "_includes",
             //includes: "includes",
             data: "_data"
         },
